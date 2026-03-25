@@ -52,14 +52,16 @@ https://api.nasa.gov/
 
 ## 📂 Estrutura do projeto
 
-´´´
-📂/Project_astros
-  │── 📄index.html
-  │── 📄style.css
-  │── 📄script.js
-  │── 📂assets/
-
-´´´
+```
+📁/Project_astros       
+┣ 📄index.html
+┣ 📄style.css
+┣ 📄script.js    
+┗ 📂assets/      
+    ┣ 🖼️ Astros logo (branca).png      
+    ┗ 🖼️ Astros logo (preta).png     
+         
+```
 
 ---
 
