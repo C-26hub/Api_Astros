@@ -43,12 +43,11 @@ https://api.nasa.gov/
 
 ## 💻 Como executar o projeto
 
-1. Clone ou baixe este repositório  
+1. Clone/baixe este repositório ou acesse: https://astros-api.netlify.app/ 
 2. Abra o arquivo `index.html` em um navegador  
 3. Insira uma data no campo disponível  
-4. Clique em **Buscar**  
-                ou
-Acesse: https://astros-api.netlify.app/ 
+4. Clique em **Buscar**
+
 ---
 
 ## 📂 Estrutura do projeto
