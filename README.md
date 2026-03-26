@@ -47,7 +47,8 @@ https://api.nasa.gov/
 2. Abra o arquivo `index.html` em um navegador  
 3. Insira uma data no campo disponível  
 4. Clique em **Buscar**  
-
+                ou
+Acesse: https://astros-api.netlify.app/ 
 ---
 
 ## 📂 Estrutura do projeto
