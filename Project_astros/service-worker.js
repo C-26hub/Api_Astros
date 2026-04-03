@@ -1,4 +1,4 @@
-const CACHE_NAME = "astros-cache-v2";
+const CACHE_NAME = "astros-cache-v3";
 const urlsToCache = [
     "/",
     "./index.html",
@@ -43,8 +43,11 @@ self.addEventListener("fetch", (event) => {
             fetch(request)
             .then(response => {
                 const responseClone = response.clone();
+                
                 caches.open(CACHE_NAME)
                 .then(cache => cache.put(request, responseClone));
+
+                return response;
             })
             .catch(() => caches.match(request))
         );
