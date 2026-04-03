@@ -1,4 +1,4 @@
-const CACHE_NAME = "astros-cache-v1";
+const CACHE_NAME = "astros-cache-v2";
 const urlsToCache = [
     "/",
     "./index.html",
