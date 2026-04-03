@@ -38,7 +38,7 @@ self.addEventListener("fetch", (event) => {
     const request = event.request;
 
     // API da NASA
-    if (request.url.includes("api.nasa.gov/planetary/apod")) {
+    if (request.url.includes("api.nasa.gov")) {
         event.respondWith(
             fetch(request)
             .then(response => {
