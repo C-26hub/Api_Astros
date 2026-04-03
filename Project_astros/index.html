@@ -4,13 +4,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Astros</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="manifest" href="manifest.json">
     </head>
 
     <body>
+        <h1 class="titulo">Astros</h1>
         <img class="logo" alt="logo do Astros" src="assets/Astros logo (branca).png">
-        <p>Escolha uma data</p>
+        <label for="data">Escolha uma data</label>
         <input type="date" id="data">
-        <button onclick = "getAstro()">Buscar</button>
+        <button onclick = "getAstro()" aria-label="Buscar imagem da NASA">Buscar</button>
         <div id="imagem"></div>
 
         <script src = "script.js"></script>
